@@ -1,0 +1,18 @@
+extends:
+- airbnb-base
+plugins:
+- promise
+- mocha
+env:
+  node: true
+  mocha: true
+globals:
+  fastify: readonly
+rules:
+  spaced-comment:
+  - 2
+  - always
+  - exceptions:
+    - "-"
+    markers:
+    - "/"
